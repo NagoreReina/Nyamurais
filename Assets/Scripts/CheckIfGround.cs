@@ -13,7 +13,7 @@ public class CheckIfGround : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Floor" || collision.tag == "platform")
+        if (collision.tag == "Floor" || collision.tag == "Platform")
         {
             isGrounded = true;
         }
