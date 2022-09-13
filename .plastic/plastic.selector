@@ -1,0 +1,4 @@
+repository "Nyamurais@Nyamurais@cloud"
+  path "/"
+    smartbranch "/main"     
+     
